@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
+      // função que ativa mensagem com o click.
       function clickBotao() {
         alert("Olá, mundo!");
+      }
+
+      // função que armazena texto e variavel.
+      function armazenaTexto() {
+        let input = document.getElementById("meuInput");
+        let p = document.getElementById("para");
+
+        p.textContent = input.value;
+
+        console.log("oi");
       }
     </script>
   </head>
   <body>
     <h1>Título</h1>
     <h2>titulo 2</h2>
-
+    <p name="para">paragrafo teste</p>
+    <br />
     <a href="https://www.google.com"> link para o google</a>
     <br />
     <!-- Dados de entrada -->
     <div>
-      <input type="date" />
+      <input name="meuInput" type="date" />
       <br />
       <select name="testeAula" id="">
         <option value="opcao1">Opção 1</option>
