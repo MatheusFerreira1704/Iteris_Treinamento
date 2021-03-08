@@ -1,0 +1,66 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Estilização por ID da Div1*/
+#div1 {
+  background-color: red;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Estilização por ID da Div2*/
+#div2 {
+  background-color: orange;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+}
+/* Estilização por ID da Div3*/
+#div3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 12vh;
+}
+/*Estilização por classe do paragrafo 1 da DIV 3*/
+.yellow {
+  background-color: yellow;
+  height: 100%;
+  margin: 0;
+}
+/*Estilização por classe do paragrafo 2 da DIV 3*/
+.green {
+  background-color: seagreen;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+/* Estilização por ID da Div4*/
+#div4 {
+  display: flex;
+  flex-direction: row;
+  height: 12vh;
+  flex-wrap: wrap;
+}
+/*Estilização por classe do paragrafo 1 da DIV 4*/
+.purple {
+  background-color: purple;
+  height: 100%;
+  width: 50%;
+  margin: 0;
+}
+/*Estilização por classe do paragrafo 2 da DIV 4*/
+.blue {
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+  margin: 0;
+}
