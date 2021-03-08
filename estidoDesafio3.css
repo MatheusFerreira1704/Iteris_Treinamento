@@ -1,0 +1,10 @@
+.img {
+  max-width: 100%;
+}
+
+#div1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
